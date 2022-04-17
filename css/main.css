@@ -1,0 +1,15 @@
+body {
+  margin: 0px
+}
+.my-blue {
+  background-color: rgb(50, 101, 134);
+  color: white
+}
+
+#nav-button {
+  padding: 5px;
+  margin: 10px;
+  background-image: url("../img/nav_button.png");
+  height: 50px;
+  width: 60px;
+}

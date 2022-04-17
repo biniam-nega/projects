@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Notes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../w3/w3.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="../jQuery/jquery-3.5.1.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body class="w3-content w3-light-gray" style="max-width:1200px">
+        <div class="w3-bar w3-top my-blue">
+            <div class="w3-bar-item w3-wide w3-xxlarge">MY NOTES</div>
+        </div>
+
+        <div class="w3-row-padding w3-light-gray w3-padding-64 w3-container w3-margin-top">
+            <div class="w3-card-4 w3-margin-top w3-margin-bottom">
+                <div class="w3-container">
+                    <form id="note-form">
+                        <textarea class="w3-input w3-margin-top w3-margin-bottom" id="new-note" style="height: 100px" placeholder="enter your note..."></textarea>
+                        <input type="button" class="w3-button w3-red w3-round-large w3-margin-bottom w3-right w3-margin-left" id="del-notes" value="Delete All Notes"/>
+                        <input type="button" class="w3-button my-blue w3-round-large w3-margin-bottom w3-right" id="add-note" value="ADD"/>
+                    </form>
+                </div>
+            </div>
+            <div id="my-notes" class="w3-padding-16">
+            </div>
+        </div>
+    </body>
+</html>
